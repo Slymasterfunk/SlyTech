@@ -166,10 +166,11 @@ function OrderScreen({match, history}) {
                                     {!sdkReady ? (
                                         <Loader />
                                     ) : (
-                                        <PayPalButton 
-                                            amount={order.totalPrice}
-                                            onSuccess={successPaymentHandler}
-                                        />
+                                        // <PayPalButton 
+                                        //     amount={order.totalPrice}
+                                        //     onSuccess={successPaymentHandler}
+                                        // />
+                                        <Button disabled className='btn-block'>Disabled</Button>
                                     )}
                                 </ListGroup.Item>
                             )}
