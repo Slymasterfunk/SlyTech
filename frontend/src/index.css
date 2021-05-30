@@ -1,0 +1,72 @@
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.round-15 {
+  border-radius: 15px;
+}
+
+.round-25 {
+  border-radius: 25px;
+}
+
+/* Search Box */
+input.search-box {
+  border-radius: 25px;
+  height: 30px;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #000;
+}
+
+.carousel img {
+  display: block;
+  height: 400px;
+  padding: 10px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.carousel a {
+  margin: 0 auto;
+  color: #000;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h4 {
+    font-size: 3vw;
+  }
+}
